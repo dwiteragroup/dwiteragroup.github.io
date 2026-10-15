@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== SEO: ini yang dibaca Google ===== -->
+  <title>Dwitera Group | People · Solutions · A Better Tomorrow</title>
+  <meta name="description" content="Dwitera Group adalah grup bisnis keluarga yang menaungi unit usaha di bidang F&amp;B, Creative, Pengadaan Alat Kesehatan, Konstruksi, serta Klinik dan Rumah Sakit. People · Solutions · A Better Tomorrow.">
+  <meta name="keywords" content="Dwitera, Dwitera Group, PT Dwitera, grup bisnis, F&amp;B, creative agency, pengadaan alat kesehatan, distributor alat kesehatan, konstruksi, kontraktor, klinik, rumah sakit, layanan kesehatan">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://dwiteragroup.github.io/">
+
+  <!-- Tampilan saat link dibagikan di WhatsApp / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dwitera Group">
+  <meta property="og:description" content="Grup bisnis: F&amp;B, Creative, Alat Kesehatan, Konstruksi, Klinik &amp; Rumah Sakit. People · Solutions · A Better Tomorrow.">
+  <meta property="og:url" content="https://dwiteragroup.github.io/">
+  <meta property="og:image" content="https://dwiteragroup.github.io/logo-full.png">
+
+  <link rel="icon" href="favicon.png" type="image/png">
+
+  <!-- Data perusahaan untuk Google (Knowledge Panel) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Dwitera Group",
+    "url": "https://dwiteragroup.github.io/",
+    "logo": "https://dwiteragroup.github.io/logo-full.png",
+    "slogan": "People · Solutions · A Better Tomorrow",
+    "description": "Grup bisnis keluarga yang menaungi unit usaha F&B, Creative, Pengadaan Alat Kesehatan, Konstruksi, serta Klinik dan Rumah Sakit.",
+    "knowsAbout": ["Food & Beverage", "Creative", "Pengadaan Alat Kesehatan", "Konstruksi", "Klinik", "Rumah Sakit"],
+    "email": "ajie@dwitera.co.id",
+    "telephone": "+62 812 2456 7890",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jl. Contoh No. 123",
+      "addressLocality": "Jakarta",
+      "addressCountry": "ID"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #0B2DAA;
+      --navy-deep: #0A1F5C;
+      --ocean: #007ACC;
+      --turquoise: #00B3A4;
+      --leaf: #6CC24A;
+      --gold: #F4B400;
+      --ink: #1B2440;
+      --muted: #5B6478;
+      --bg: #F6F9FC;
+      --card: #FFFFFF;
+      --line: #E3E9F2;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    img { max-width: 100%; display: block; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+    /* ---------- Header ---------- */
+    header {
+      position: sticky; top: 0; z-index: 10;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+    .nav img { height: 44px; width: auto; }
+    .nav ul { list-style: none; display: flex; gap: 28px; }
+    .nav ul a { text-decoration: none; font-weight: 500; font-size: 0.95rem; color: var(--navy-deep); }
+    .nav ul a:hover { color: var(--ocean); }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      background:
+        radial-gradient(circle at 85% 20%, rgba(244,180,0,0.18), transparent 40%),
+        radial-gradient(circle at 10% 90%, rgba(0,179,164,0.15), transparent 45%),
+        #fff;
+      padding: 72px 0 80px;
+    }
+    .hero .wrap { display: grid; grid-template-columns: 1.1fr 1fr; gap: 48px; align-items: center; }
+    .eyebrow {
+      display: inline-block; font-size: 0.8rem; font-weight: 600; letter-spacing: 3px;
+      color: var(--gold); text-transform: uppercase; margin-bottom: 14px;
+    }
+    .hero h1 { font-size: 2.9rem; line-height: 1.15; font-weight: 800; color: var(--navy-deep); }
+    .hero h1 span {
+      background: linear-gradient(90deg, var(--ocean), var(--turquoise), var(--leaf));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .hero p { margin: 18px 0 30px; color: var(--muted); font-size: 1.05rem; max-width: 520px; }
+    .btn {
+      display: inline-block; padding: 13px 28px; border-radius: 999px;
+      background: var(--navy-deep); color: #fff; text-decoration: none; font-weight: 600;
+      transition: transform .15s, background .15s;
+    }
+    .btn:hover { background: var(--ocean); transform: translateY(-2px); }
+    .btn.ghost { background: transparent; color: var(--navy-deep); border: 2px solid var(--navy-deep); margin-left: 10px; }
+    .btn.ghost:hover { background: var(--navy-deep); color: #fff; }
+
+    /* ---------- Section umum ---------- */
+    section { padding: 80px 0; scroll-margin-top: 72px; }
+    .section-title { text-align: center; margin-bottom: 48px; }
+    .section-title h2 { font-size: 2rem; color: var(--navy-deep); font-weight: 700; }
+    .section-title p { color: var(--muted); margin-top: 8px; }
+    .bar { width: 56px; height: 4px; background: var(--gold); border-radius: 2px; margin: 14px auto 0; }
+
+    /* ---------- Tentang ---------- */
+    .about { background: #fff; }
+    .about-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .about-card {
+      background: var(--bg); border-radius: 16px; padding: 30px; border-top: 4px solid var(--ocean);
+    }
+    .about-card:nth-child(2) { border-top-color: var(--turquoise); }
+    .about-card:nth-child(3) { border-top-color: var(--gold); }
+    .about-card h3 { color: var(--navy-deep); margin-bottom: 8px; font-size: 1.15rem; }
+    .about-card p { color: var(--muted); font-size: 0.95rem; }
+
+    /* ---------- Lini Bisnis ---------- */
+    .biz-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+    .biz {
+      position: relative; background: var(--card); border: 1px solid var(--line);
+      border-radius: 18px; padding: 30px 26px; overflow: hidden;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .biz:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(10,31,92,0.09); }
+    .biz::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; background: var(--c); }
+    .biz .ico {
+      width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center;
+      font-size: 1.7rem; margin-bottom: 16px; background: color-mix(in srgb, var(--c) 14%, white);
+    }
+    .biz h3 { color: var(--navy-deep); font-size: 1.15rem; margin-bottom: 6px; }
+    .biz p { color: var(--muted); font-size: 0.92rem; }
+    .biz .tag {
+      display: inline-block; margin-top: 14px; font-size: 0.72rem; font-weight: 600; letter-spacing: 1px;
+      color: var(--c); border: 1px solid var(--c); border-radius: 999px; padding: 2px 10px;
+    }
+    .biz.more { background: linear-gradient(135deg, var(--navy-deep), var(--ocean)); border: none; color: #fff; }
+    .biz.more::before { display: none; }
+    .biz.more h3 { color: #fff; }
+    .biz.more p { color: rgba(255,255,255,0.8); }
+    .biz.more .ico { background: rgba(255,255,255,0.15); }
+
+    /* ---------- Filosofi ---------- */
+    .philo-intro { max-width: 720px; margin: 0 auto 40px; text-align: center; color: var(--muted); }
+    .peaks { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+    .peak {
+      background: var(--card); border-radius: 16px; padding: 26px 18px; text-align: center;
+      border: 1px solid var(--line); transition: transform .2s, box-shadow .2s;
+    }
+    .peak:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(10,31,92,0.08); }
+    .peak .letter {
+      width: 56px; height: 56px; margin: 0 auto 14px; border-radius: 50%;
+      display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 1.4rem;
+    }
+    .peak h3 { font-size: 1.05rem; color: var(--navy-deep); }
+    .peak p { font-size: 0.85rem; color: var(--muted); margin-top: 6px; }
+
+    /* ---------- Nilai ---------- */
+    .values { background: var(--navy-deep); color: #fff; }
+    .values .section-title h2 { color: #fff; }
+    .values .section-title p { color: rgba(255,255,255,0.7); }
+    .value-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .value {
+      background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 16px; padding: 28px 22px;
+    }
+    .value .icon { font-size: 2rem; margin-bottom: 10px; }
+    .value h3 { font-size: 1.1rem; letter-spacing: 1px; }
+    .value p { color: rgba(255,255,255,0.75); font-size: 0.9rem; margin-top: 4px; }
+
+    /* ---------- Kontak ---------- */
+    .contact-box {
+      background: #fff; border-radius: 20px; padding: 44px; display: grid;
+      grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;
+      box-shadow: 0 10px 30px rgba(10,31,92,0.06);
+    }
+    .contact-box h2 { color: var(--navy-deep); font-size: 1.8rem; }
+    .contact-box > div > p { color: var(--muted); margin-top: 8px; }
+    .contact-list { list-style: none; }
+    .contact-list li { display: flex; gap: 14px; align-items: flex-start; padding: 12px 0; border-bottom: 1px solid var(--line); }
+    .contact-list li:last-child { border-bottom: none; }
+    .contact-list .ic { font-size: 1.2rem; width: 28px; }
+    .contact-list a { text-decoration: none; color: var(--ocean); font-weight: 500; }
+
+    /* ---------- Footer ---------- */
+    footer { background: #fff; border-top: 1px solid var(--line); padding: 28px 0; text-align: center; color: var(--muted); font-size: 0.85rem; }
+    footer .tag { letter-spacing: 3px; font-size: 0.75rem; margin-top: 6px; color: var(--navy-deep); }
+
+    /* ---------- HP / layar kecil ---------- */
+    @media (max-width: 900px) {
+      .hero .wrap, .contact-box { grid-template-columns: 1fr; }
+      .hero { text-align: center; padding: 48px 0 56px; }
+      .hero p { margin-left: auto; margin-right: auto; }
+      .hero h1 { font-size: 2.2rem; }
+      .hero .wrap > * { min-width: 0; }
+      .hero img { width: 100%; max-width: 340px; margin: 0 auto; }
+      .about-grid { grid-template-columns: 1fr; }
+      .biz-grid { grid-template-columns: repeat(2, 1fr); }
+      .peaks { grid-template-columns: repeat(2, 1fr); }
+      .value-grid { grid-template-columns: repeat(2, 1fr); }
+      .nav ul { display: none; }
+      .contact-box { padding: 28px; }
+    }
+    @media (max-width: 480px) {
+      .peaks, .value-grid, .biz-grid { grid-template-columns: 1fr; }
+      .btn.ghost { margin: 10px 0 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <a href="#beranda"><img src="logo-horizontal.png" alt="Logo Dwitera Group"></a>
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#bisnis">Lini Bisnis</a></li>
+        <li><a href="#filosofi">Filosofi</a></li>
+        <li><a href="#nilai">Nilai</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ===== Beranda ===== -->
+  <div class="hero" id="beranda">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">Dwitera Group</span>
+        <h1>People · Solutions ·<br><span>A Better Tomorrow</span></h1>
+        <p>Dwitera Group adalah grup bisnis keluarga yang menaungi beragam unit usaha, mulai dari F&amp;B, Creative, Pengadaan Alat Kesehatan, Konstruksi, hingga Klinik dan Rumah Sakit, dengan satu tujuan: menghadirkan solusi terbaik untuk masa depan yang lebih baik.</p>
+        <a href="#bisnis" class="btn">Lini Bisnis Kami</a>
+        <a href="#kontak" class="btn ghost">Hubungi Kami</a>
+      </div>
+      <img src="logo-full.png" alt="Dwitera Group - People, Solutions, A Better Tomorrow">
+    </div>
+  </div>
+
+  <!-- ===== Tentang ===== -->
+  <section class="about" id="tentang">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Tentang Dwitera Group</h2>
+        <p>Siapa kami dan apa yang kami perjuangkan</p>
+        <div class="bar"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>People</h3>
+          <p>Kami percaya bahwa kekuatan utama sebuah usaha ada pada manusianya: keluarga, mitra, dan setiap orang yang tumbuh bersama kami.</p>
+        </div>
+        <div class="about-card">
+          <h3>Solutions</h3>
+          <p>Melalui berbagai unit usaha, kami hadir memberi solusi yang tepat, jujur, dan dapat diandalkan bagi setiap kebutuhan klien dan mitra kerja.</p>
+        </div>
+        <div class="about-card">
+          <h3>A Better Tomorrow</h3>
+          <p>Setiap langkah kami arahkan untuk pertumbuhan yang berkelanjutan, demi masa depan yang lebih baik bagi semua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Lini Bisnis ===== -->
+  <section id="bisnis">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Lini Bisnis Dwitera Group</h2>
+        <p>Unit usaha yang bernaung di bawah Dwitera Group</p>
+        <div class="bar"></div>
+      </div>
+      <div class="biz-grid">
+        <article class="biz" style="--c:#F4B400">
+          <div class="ico">🍽️</div>
+          <h3>Food &amp; Beverage</h3>
+          <p>Usaha kuliner dan minuman yang menghadirkan cita rasa berkualitas dengan pelayanan yang hangat.</p>
+          <span class="tag">F&amp;B</span>
+        </article>
+        <article class="biz" style="--c:#00B3A4">
+          <div class="ico">🎨</div>
+          <h3>Creative</h3>
+          <p>Layanan kreatif seperti desain, branding, dan konten untuk membantu bisnis tampil lebih kuat.</p>
+          <span class="tag">CREATIVE</span>
+        </article>
+        <article class="biz" style="--c:#007ACC">
+          <div class="ico">🩺</div>
+          <h3>Pengadaan Alat Kesehatan</h3>
+          <p>Penyediaan alat kesehatan untuk rumah sakit, klinik, dan instansi, dengan proses pengadaan yang tertib dan terpercaya.</p>
+          <span class="tag">ALKES</span>
+        </article>
+        <article class="biz" style="--c:#6CC24A">
+          <div class="ico">🏗️</div>
+          <h3>Konstruksi</h3>
+          <p>Pekerjaan konstruksi dan pembangunan yang dikerjakan dengan standar mutu, keselamatan, dan ketepatan waktu.</p>
+          <span class="tag">KONSTRUKSI</span>
+        </article>
+        <article class="biz" style="--c:#0B2DAA">
+          <div class="ico">🏥</div>
+          <h3>Klinik &amp; Rumah Sakit</h3>
+          <p>Layanan kesehatan melalui klinik dan rumah sakit yang mengutamakan mutu pelayanan, keselamatan, dan kenyamanan pasien.</p>
+          <span class="tag">LAYANAN KESEHATAN</span>
+        </article>
+        <article class="biz more">
+          <div class="ico">✨</div>
+          <h3>Dan Lainnya</h3>
+          <p>Dwitera Group terus tumbuh dan membuka peluang di bidang usaha baru. Kami terbuka untuk kemitraan dan kerja sama.</p>
+          <a href="#kontak" class="tag" style="text-decoration:none;color:#fff;border:1px solid #fff">HUBUNGI KAMI →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Filosofi ===== -->
+  <section id="filosofi" style="background:#fff">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Lima Puncak, Satu Tujuan</h2>
+        <p>Filosofi di balik logo Dwitera Group</p>
+        <div class="bar"></div>
+      </div>
+      <p class="philo-intro">Lima puncak melambangkan Dwi dan Teguh sebagai fondasi yang mengarahkan Ajie, Hanum, dan Keny untuk terus tumbuh bersama menuju masa depan yang lebih baik.</p>
+      <div class="peaks">
+        <div class="peak">
+          <div class="letter" style="background:#0A1F5C">D</div>
+          <h3>Dwi</h3>
+          <p>Fondasi, arah, visi, dan perlindungan.</p>
+        </div>
+        <div class="peak">
+          <div class="letter" style="background:#0B2DAA">T</div>
+          <h3>Teguh</h3>
+          <p>Ketegasan, pengawasan, dan fondasi yang kuat.</p>
+        </div>
+        <div class="peak">
+          <div class="letter" style="background:#00B3A4">A</div>
+          <h3>Ajie</h3>
+          <p>Inisiatif, keberanian, dan masa depan.</p>
+        </div>
+        <div class="peak">
+          <div class="letter" style="background:#6CC24A">H</div>
+          <h3>Hanum</h3>
+          <p>Harmoni, penghubung, dan kekuatan keluarga.</p>
+        </div>
+        <div class="peak">
+          <div class="letter" style="background:#F4B400">K</div>
+          <h3>Keny</h3>
+          <p>Keberlanjutan, ketahanan, dan pertumbuhan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Nilai ===== -->
+  <section class="values" id="nilai">
+    <div class="wrap">
+      <div class="section-title">
+        <h2>Nilai-Nilai Kami</h2>
+        <p>Prinsip yang menuntun setiap langkah Dwitera Group</p>
+        <div class="bar"></div>
+      </div>
+      <div class="value-grid">
+        <div class="value">
+          <div class="icon">🤝</div>
+          <h3>UNITY</h3>
+          <p>Keluarga, satu tujuan.</p>
+        </div>
+        <div class="value">
+          <div class="icon">🛡️</div>
+          <h3>TRUST</h3>
+          <p>Integritas dan kepercayaan.</p>
+        </div>
+        <div class="value">
+          <div class="icon">💡</div>
+          <h3>CREATIVITY</h3>
+          <p>Inovasi dan solusi.</p>
+        </div>
+        <div class="value">
+          <div class="icon">📈</div>
+          <h3>GROWTH</h3>
+          <p>Keberlanjutan dan masa depan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Kontak ===== -->
+  <section id="kontak">
+    <div class="wrap">
+      <div class="contact-box">
+        <div>
+          <h2>Hubungi Kami</h2>
+          <p>Kami senang mendengar dari Anda. Silakan hubungi kami untuk informasi, kerja sama, atau pertanyaan lainnya.</p>
+        </div>
+        <ul class="contact-list">
+          <li><span class="ic">📍</span><span>Jl. Contoh No. 123, Jakarta, Indonesia</span></li>
+          <li><span class="ic">📞</span><a href="https://wa.me/6281224567890">+62 812 2456 7890</a></li>
+          <li><span class="ic">✉️</span><a href="mailto:ajie@dwitera.co.id">ajie@dwitera.co.id</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>© 2026 Dwitera Group. Seluruh hak cipta dilindungi.</div>
+    <div class="tag">PEOPLE · SOLUTIONS · A BETTER TOMORROW</div>
+  </footer>
+
+</body>
+</html>
